@@ -99,10 +99,9 @@ namespace SimpleMailServiceUIManager
         public Dictionary<int, string> GetMailObjectReferences()
         {
             var dict = new Dictionary<int, string>();
-            dict.Add(1, "bl@ppsa.ch");
-            dict.Add(2, "facture@ppsa.ch");
-            dict.Add(3, "nc@ppsa.ch");
-            dict.Add(4, "fh@ppsa.ch");
+            dict.Add(1, "invoices@2lazy2.dev");
+            dict.Add(2, "receipts@2lazy2.dev");
+            dict.Add(3, "creditnotes@2lazy2.dev");
             return dict;
         }
     }
